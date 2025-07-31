@@ -8,16 +8,16 @@ window.addEventListener('load', () => {
 
 const messages = [
     {
-        text: "plss mau dong",
-        image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
+        text: "kenapa nggak?",
+        image: "https://ik.imagekit.io/alovrs27/c337dbc3-0683-4c58-a19a-ddc3e30fb32f.jpeg?updatedAt=1753927884134"
     },
     {
-        text: "pls klik yg kiri",
-        image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
+        text: "sayaaaaaangggg",
+        image: "https://ik.imagekit.io/alovrs27/WhatsApp%20Image%202025-07-31%20at%2009.03.32_5434ed6e.jpg?updatedAt=1753927453269"
     },
     {
-        text: "terakhir, kalo \"no\" yauda deh",
-        image: "https://i.pinimg.com/736x/a6/43/f5/a643f5a40db387585b56bc767b66fddb.jpg"
+        text: "terakhir, kalo \"gak\" yauda deh",
+        image: "https://ik.imagekit.io/alovrs27/WhatsApp%20Image%202025-07-31%20at%2009.14.35_946cb960.jpg?updatedAt=1753928101385"
     }
 ];
 
@@ -121,7 +121,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "HORE!! i knew you would say vqsghvwegdsbjs";
+    title.innerHTML = "Semoga kita bersama sampai maut memisahkan yaaa sayaangkuuuuu. I Love Youuuuuuu";
     document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/good-night-kiss-kiss.gif";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "TAPI BOONG HEHEHE";
+        title.innerHTML = "gaboleh gak pokoknya";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
